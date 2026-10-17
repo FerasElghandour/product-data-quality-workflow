@@ -1,0 +1,1 @@
+{"fixture": "two generated product records", "known": "Product 'Headphones' found! Price: $99.00", "missing_price": "Product 'Speaker' found but price is not available.", "unknown": "Error: Product with ASIN Z not found.", "retained_one_of_two_percent": 50.0}
