@@ -1,0 +1,19 @@
+{
+  "sample_limit": 100,
+  "i": 10,
+  "Items_To_Print": 10,
+  "metadata_limit": 100,
+  "j": 100,
+  "has_price": true,
+  "price": 635.93,
+  "with_price": 89,
+  "without_price": 11,
+  "df_name": "item_metadata_df",
+  "col": "main_category",
+  "average_rating_filter": 4.5,
+  "percentage_retained": 31.0,
+  "idx": 93,
+  "title": "Jabra Evolve2 85 Headset",
+  "cutoff_threshold": 4.7,
+  "highly_rated_products_df_cutoff": 4.7
+}

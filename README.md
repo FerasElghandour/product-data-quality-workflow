@@ -8,6 +8,15 @@ A deterministic synthetic product/review fixture, missing-price handling, rating
 
 ![Implementation mechanism: Product records in notebook → Check required fields and missingness → Retrieve product by identifier → Distinguish unknown ID from missing field → Summarize data completeness](assets/mechanism.svg)
 
+
+
+## Run the product-quality gate
+
+The notebook can now execute noninteractively. A reusable product gate validates schema, unique identifiers, rating/price ranges and whitespace-only titles before selection.
+
+[Commands, artifacts and benchmark scope](BENCHMARKS.md) · [Versioned profiles](reproduction.json)
+
+
 ## Try a small example
 
 A small offline fixture exercises the public implementation. It demonstrates the behavior shown below; it does not replace the historical dataset, benchmark or production validation.

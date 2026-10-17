@@ -1,0 +1,38 @@
+{
+  "repository": "product-data-quality-workflow",
+  "profiles": {
+    "checks": {
+      "scope": "Source parsing only; not model training or behavior verification",
+      "commands": [
+        [
+          "{python}",
+          "scripts/validate_source.py"
+        ],
+        [
+          "{python}",
+          "test_quality.py"
+        ]
+      ]
+    },
+    "full-notebook": {
+      "scope": "Generated100-record workflow; export/readback and filtering, not real review-corpus performance",
+      "commands": [
+        [
+          "{python}",
+          "reproduce.py",
+          "--output",
+          "{output}/notebook"
+        ]
+      ]
+    }
+  },
+  "version_packages": [
+    "numpy",
+    "torch",
+    "pandas",
+    "scikit-learn",
+    "gymnasium",
+    "pytest"
+  ],
+  "external_evidence_limits": "See BENCHMARKS.md and DATA.md. Passing contract checks does not certify historical accuracy, live providers, physical safety or business outcomes."
+}
