@@ -1,0 +1,21 @@
+{
+  "slug": "product-data-quality-workflow",
+  "date": "2026-10-17",
+  "notebook_sha256": "26c4b5c06972471835458092cf419b9df35bbbda5cb9238508fdb6535b4ebebd",
+  "code_cells": 16,
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "torch": "2.14.1",
+  "sklearn": "1.9.1",
+  "inputs": {},
+  "metrics": {
+    "percentage_retained": 31.0
+  },
+  "plots": [
+    "figure-01.png",
+    "figure-02.png",
+    "figure-03.png",
+    "figure-04.png"
+  ],
+  "status": "passed"
+}
