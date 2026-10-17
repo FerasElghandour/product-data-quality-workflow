@@ -6,14 +6,7 @@ Turn incomplete product metadata into a consistent, filterable product shortlist
 
 A deterministic synthetic product/review fixture, missing-price handling, rating filters, guarded lookups, CSV/Parquet export, and exploratory pricing charts.
 
-```mermaid
-flowchart TD
-    N0["Product records in notebook"] --> N1
-    N1["Check required fields and missingness"] --> N2
-    N2["Retrieve product by identifier"] --> N3
-    N3["Distinguish unknown ID from missing field"] --> N4
-    N4["Summarize data completeness"]
-```
+![Implementation mechanism: Product records in notebook → Check required fields and missingness → Retrieve product by identifier → Distinguish unknown ID from missing field → Summarize data completeness](assets/mechanism.svg)
 
 ## Try a small example
 
